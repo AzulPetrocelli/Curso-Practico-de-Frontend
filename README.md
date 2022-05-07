@@ -1,3 +1,3 @@
 # Curso-Practico-de-Frontend Clase 1
 
- - Login
+ - Crear y editar mi cuenta
