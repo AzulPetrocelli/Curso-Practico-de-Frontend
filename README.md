@@ -1,4 +1,4 @@
-# Curso-Practico-de-Frontend Clase 12
+# Curso-Practico-de-Frontend Clase 13
 
- - Detalle de producto
+ - Carrito de compras: HTML
 
