@@ -5,6 +5,111 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Clase 11</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;bold&display=swap" rel="stylesheet">
+
+  <style>
+    :root{
+      --very-light-spanink: #C7C7C7;
+      --white:#FFFFFF;
+      --text-inspanut-field: #F7F7F7;
+      --black: #000000;
+      --hosspanital-green: #ACD9B2;
+      --dark: #232830;
+      --sm: 14spanx;
+      --md: 16spanx;
+      --lg: 18spanx
+    }
+
+    body{
+      font-family: 'Quicksand', sans-serif;
+      margin: 0;
+    }
+
+    nav{
+      display: flex;
+      justify-content: space-between;
+      padding: 0px 24px;
+      height: 60px;
+      border-bottom: 1px solid var(--very-light-spanink);
+    }
+
+    .menu{
+      display: none;
+      margin: 16px 0px;
+    }
+
+    .logo{
+      width: 100px;
+    }
+
+    .navbar-left{
+      display: flex;
+      align-items: center;
+    }
+
+    .navbar-left ul,
+    .navbar-right ul{
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      height: 60px;
+      align-items: center;
+    }
+    
+    .navbar-left li a,
+    .navbar-right li a{
+      text-decoration: none;
+      color: var(--very-light-spanink);
+      font-size: var(--sm);
+      font-weight: 300;
+      padding: 8px;
+      border-radius: 8px;
+    }
+    
+    .navbar-left li :hover{
+      text-decoration: none;
+      color: var(--hosspanital-green);
+      border: 1px solid var(--hosspanital-green);
+      font-size: var(--lg);
+      font-weight: 300;
+    }
+    
+    .navbar-shopping-cart{
+      position: relative;
+    }
+
+    .navbar-shopping-cart div{
+      width: 16px;
+      height: 16px;
+      background-color: var(--hosspanital-green);
+      border-radius: 50% ;
+      font-size: var(--sm);
+      font-weight: bold;
+      position: absolute;
+      top: -6px;
+      right: -3px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    @media (max-width: 640px) {
+      .menu{
+        display: block;
+      }
+      .navbar-left ul{
+        display: none;
+      }
+      .navbar-right a{
+        display: none;
+      }
+    }
+  </style>
+  
 </head>
 <body>
   <nav>
@@ -37,11 +142,11 @@
     <div class="navbar-right">
       <ul>
         <li>
-          azulpetrocelli81@gmail.com
+         <a href="">azulpetrocelli81@gmail.com</a> 
         </li>
         <li class="navbar-shopping-cart">
-          <img src="./icons/icon_shopping_cart_notification.svg" alt="shopping cart">
-          <div>2</div>
+            <img src="./icons/icon_shopping_cart_notification.svg" alt="shopping cart">
+            <div>2</div>
         </li>
       </ul>
     </div>

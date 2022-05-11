@@ -1,4 +1,4 @@
-# Curso-Practico-de-Frontend Clase 1
+# Curso-Practico-de-Frontend Clase 11
 
- - Navbar: HTML
+ - Navbar: CSS
 
