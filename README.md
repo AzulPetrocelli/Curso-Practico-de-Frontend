@@ -1,4 +1,4 @@
-# Curso-Practico-de-Frontend Clase 11
+# Curso-Practico-de-Frontend Clase 12
 
- - Navbar: CSS
+ - Detalle de producto
 
